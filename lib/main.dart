@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Flutter Name Generator',
+      theme: new ThemeData(primaryColor: Colors.lightBlueAccent),
       home: new RandomWords()
     );
   }
